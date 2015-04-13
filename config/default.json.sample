@@ -7,5 +7,8 @@
       "email":"i@myself.land"
     },
     "channels":["#aerobot-playground"]
-  }
+  },
+  "urbandictionary" : {
+     "API_KEY" : "KEY_FROM_https://www.mashape.com/community/urban-dictionary"
+   }
 }

@@ -18,6 +18,13 @@ if (process.env.AEROBOT_CONFIG) {
     };
 }
 
+if (process.env.UD_API_KEY) {
+    if (!config.urbandictionary) {
+        config.urbandictionary = {};
+    }
+    config.urbandictionary.API_KEY = process.env.UD_API_KEY;
+}
+
 var ircConnection  = new irc.Client(config.irc.host, config.irc.nick, {
     channels: config.irc.channels
 });
