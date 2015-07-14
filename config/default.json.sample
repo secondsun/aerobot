@@ -6,7 +6,8 @@
       "password":"sekret",
       "email":"i@myself.land"
     },
-    "channels":["#aerobot-playground"]
+    "channels":["#aerobot-playground"],
+    "nsfwChannels":["#private-playground"],
   },
   "urbandictionary" : {
      "API_KEY" : "KEY_FROM_https://www.mashape.com/community/urban-dictionary"
